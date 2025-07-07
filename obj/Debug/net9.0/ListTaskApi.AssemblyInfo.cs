@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ListTaskApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f22abf4fff0ef75ce92d5000a222d186a2918abb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0c0f88de7e4d7d6916811b85b9e3b350bfc0ce9")]
 [assembly: System.Reflection.AssemblyProductAttribute("ListTaskApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ListTaskApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
