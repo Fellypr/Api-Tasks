@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "rXvRVCjBTa9+iGMac0tBdzkMaQVUy2G5ULDtyzC5L8g=",
+  "Source": "ListTaskApi",
+  "BasePath": "_content/ListTaskApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
