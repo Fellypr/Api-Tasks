@@ -5,13 +5,15 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("PermitirFrontend",
         policy => policy
-            .WithOrigins("http://localhost:5173") // ou .WithOrigins("http://localhost:5173") para restringir
+            .WithOrigins("http://localhost:5173","https://my-task-list-ten.vercel.app/")
             .AllowAnyMethod()
             .AllowAnyHeader()
     );
 });
 
 builder.Services.AddControllers();
+builder.Configuration.AddEnvironmentVariables();
+
 
 var app = builder.Build();
 
