@@ -5,7 +5,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("PermitirFrontend",
         policy => policy
-            .WithOrigins("http://localhost:5173","https://my-task-list-ten.vercel.app/")
+            .WithOrigins("http://localhost:5173","https://my-task-list-ten.vercel.app")
             .AllowAnyMethod()
             .AllowAnyHeader()
     );
